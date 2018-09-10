@@ -12,7 +12,7 @@ trait Authenticatable
     protected $rememberTokenName = 'remember_token';
 
     /**
-     * Get the name of the unique identifier for the user.
+     * Get the name of the unique identifier for the user
      *
      * @return string
      */
@@ -22,7 +22,7 @@ trait Authenticatable
     }
 
     /**
-     * Get the unique identifier for the user.
+     * Get the unique identifier for the user
      *
      * @return mixed
      */
@@ -42,7 +42,7 @@ trait Authenticatable
     }
 
     /**
-     * Get the token value for the "remember me" session.
+     * Get the token value for the "remember me" session
      *
      * @return string|null
      */
@@ -54,7 +54,7 @@ trait Authenticatable
     }
 
     /**
-     * Set the token value for the "remember me" session.
+     * Set the token value for the "remember me" session
      *
      * @param  string  $value
      * @return void
@@ -67,7 +67,7 @@ trait Authenticatable
     }
 
     /**
-     * Get the column name for the "remember me" token.
+     * Get the column name for the "remember me" token
      *
      * @return string
      */
