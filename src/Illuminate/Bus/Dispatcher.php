@@ -15,7 +15,7 @@ class Dispatcher implements QueueingDispatcher
     /**
 	 *
 	 *
-     * The container implementation.
+     * The container implementation...
      *
      * @var \Illuminate\Contracts\Container\Container
      */
