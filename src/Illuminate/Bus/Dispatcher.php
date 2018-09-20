@@ -13,6 +13,7 @@ use Illuminate\Contracts\Bus\QueueingDispatcher;
 class Dispatcher implements QueueingDispatcher
 {
     /**
+	 *
      * The container implementation.
      *
      * @var \Illuminate\Contracts\Container\Container
